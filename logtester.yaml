@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: logtester
+spec:
+  containers:
+  - name: logtester
+    image: klin732/logtester
+    imagePullPolicy: Always
